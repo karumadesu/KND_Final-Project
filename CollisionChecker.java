@@ -42,7 +42,7 @@ public class CollisionChecker {
                 }
                 break;
             case "down":
-                bottomRow = (bottomY - entity.v) / gamePanel.tileSize;
+                bottomRow = (bottomY + entity.v) / gamePanel.tileSize;
                 firstTile = gamePanel.tile.tileNumber[leftColumn][bottomRow];
                 secondTile = gamePanel.tile.tileNumber[rightColumn][bottomRow];
 
@@ -51,7 +51,7 @@ public class CollisionChecker {
                 }
                 break;
             case "right":
-                rightColumn = (rightX - entity.v) / gamePanel.tileSize;
+                rightColumn = (rightX + entity.v) / gamePanel.tileSize;
                 firstTile = gamePanel.tile.tileNumber[rightColumn][topRow];
                 secondTile = gamePanel.tile.tileNumber[rightColumn][bottomRow];
 
