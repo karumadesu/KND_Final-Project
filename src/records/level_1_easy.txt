@@ -1,0 +1,18 @@
+abc
+97
+0m 10s
+abc
+97
+0m 9s
+bcd
+98
+0m 9s
+AAA
+113
+0m 32s
+AAA
+135
+0m 31s
+AAA
+95
+0m 13s
